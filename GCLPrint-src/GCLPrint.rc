@@ -1,0 +1,1173 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\GCLPrint.ico"
+IDR_GCLPRITYPE          ICON    DISCARDABLE     "res\\GCLPrintDoc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F2,          ID_FILE_OPEN,           VIRTKEY, NOINVERT
+    VK_F3,          ID_FILE_FINDID,         VIRTKEY, NOINVERT
+    VK_F4,          ID_FILE_FINDAD,         VIRTKEY, NOINVERT
+    VK_F6,          32777,                  VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_F7,          32778,                  VIRTKEY, NOINVERT
+    VK_F8,          61447,                  VIRTKEY, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_GCLPRINT_FORM DIALOGEX 0, 0, 143, 73
+STYLE WS_CHILD
+EXSTYLE WS_EX_RIGHT | WS_EX_RTLREADING
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_FLXCUSTOMERS,
+                    "{0ECD9B64-23AA-11D0-B351-00A0C9055D8E}",WS_TABSTOP,7,7,
+                    108,53
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,4
+ PRODUCTVERSION 1,0,0,4
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "GCLPrint MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 4\0"
+            VALUE "InternalName", "GCLPrint\0"
+            VALUE "LegalCopyright", "Copyright (C) 2004\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "GCLPrint.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "GCLPrint Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 4\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_GCLPRINT_FORM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 136
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 66
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_GCLPRINT_FORM DLGINIT
+BEGIN
+    IDC_FLXCUSTOMERS, 0x37a, 493, 0
+0x0024, 0x0000, 0x0031, 0x0046, 0x0033, 0x0044, 0x0035, 0x0035, 0x0032, 
+0x0032, 0x002d, 0x0033, 0x0046, 0x0034, 0x0032, 0x002d, 0x0031, 0x0031, 
+0x0064, 0x0031, 0x002d, 0x0042, 0x0032, 0x0046, 0x0041, 0x002d, 0x0030, 
+0x0030, 0x0041, 0x0030, 0x0043, 0x0039, 0x0030, 0x0038, 0x0046, 0x0042, 
+0x0035, 0x0035, 0x0012, 0x0000, 0x0001, 0x0000, 0x000a, 0x0000, 0x004c, 
+0x0000, 0x0000, 0x4321, 0x1234, 0x0008, 0x0000, 0x10be, 0x0000, 0x08e3, 
+0x0000, 0x6f42, 0x506f, 0x0006, 0x0000, 0x008c, 0x0000, 0x0002, 0x0000, 
+0x0014, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 
+0x0000, 0x0005, 0x8000, 0x0008, 0x8000, 0x000f, 0x8000, 0x0012, 0x8000, 
+0x000d, 0x8000, 0x000e, 0x8000, 0x000f, 0x8000, 0x000f, 0x8000, 0x0012, 
+0x8000, 0xc0c0, 0x00c0, 0xc0c0, 0x00c0, 0x0000, 0x0000, 0x0000, 0xbf80, 
+0x0000, 0x0000, 0x0000, 0x0002, 0x0000, 0x0001, 0x0002, 0x0000, 0x0003, 
+0x0001, 0x0000, 0x0001, 0x0000, 0x0001, 0x0000, 0x0000, 0x0001, 0xffff, 
+0x0001, 0x0000, 0x0000, 0x0100, 0x0000, 0x0101, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0002, 0x0000, 0x0000, 0x0048, 0x0000, 0xffff, 0xffff, 0xffff, 
+0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0x0012, 0x8000, 0xffff, 0xffff, 
+0xffff, 0xffff, 0xc0c0, 0x00c0, 0x0000, 0xbf80, 0x0000, 0xbf80, 0x0000, 
+0x0000, 0x0014, 0x0000, 0x0000, 0x0000, 0xffff, 0xffff, 0x0000, 0xffff, 
+0xffff, 0xffff, 0xffff, 0xffff, 0x0000, 0x0001, 0x0000, 0x0000, 0xffff, 
+0xffff, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x5203, 
+0x0be3, 0x8f91, 0x11ce, 0xe39d, 0xaa00, 0x4b00, 0x51b8, 0x0001, 0x0000, 
+0x0190, 0x7cdc, 0x0001, 0x5406, 0x6861, 0x6d6f, 0x0061, 0x0000, 0x0000, 
+0x0400, 0xe352, 0x910b, 0xce8f, 0x9d11, 0x00e3, 0x00aa, 0xb84b, 0x6c51, 
+0x0074, 0x0000, 0x0000, "\000" 
+    0
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEU)
+#ifdef _WIN32
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+#pragma code_page(1256)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_SPLASH              BITMAP  DISCARDABLE     "res\\Logo.bmp"
+#endif    // Neutral resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral (Default) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEUD)
+#ifdef _WIN32
+LANGUAGE LANG_NEUTRAL, SUBLANG_DEFAULT
+#pragma code_page(1256)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 272, 289
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW | WS_EX_RIGHT | WS_EX_RTLREADING
+CAPTION "œ—»«—Â »—‰«„Â"
+FONT 8, "Tahoma"
+BEGIN
+    CTEXT           "»—‰«„Â ç«Å »—ç”» »«—òœÌ ò‰ Ê— ÊÌ—«Ì‘ 1.0.0.4 ",
+                    IDC_STATIC,4,208,260,8,SS_NOPREFIX,WS_EX_RTLREADING
+    CTEXT           "„—œ«œ„«Â 84",IDC_STATIC,4,220,260,8
+    DEFPUSHBUTTON   "»«‘œ",IDOK,108,270,50,14,WS_GROUP
+    CTEXT           "Õ„Ìœ—÷« „Õ„œÌ",IDC_STATIC,4,232,260,8
+    CTEXT           "‘—ò  ê«“ «” «‰ „—ò“Ì",IDC_STATIC,4,245,260,8
+    CTEXT           "ò·ÌÂ ÕﬁÊﬁ „«œÌ Ê „⁄‰ÊÌ «Ì‰ »—‰«„Â „ ⁄·ﬁ »Â »—‰«„Â ‰ÊÌ” «” .",
+                    IDC_STATIC,3,258,260,8,0,WS_EX_RTLREADING
+    CONTROL         103,IDC_STATIC,"Static",SS_BITMAP,-1,0,273,203,
+                    WS_EX_DLGMODALFRAME | WS_EX_CLIENTEDGE | 
+                    WS_EX_STATICEDGE
+END
+
+IDD_FINDID DIALOGEX 0, 0, 186, 57
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_RIGHT | WS_EX_RTLREADING
+CAPTION "Ã” ÃÊÌ ‘„«—Â «‘ —«ò"
+FONT 8, "Tahoma", 0, 0, 0x1
+BEGIN
+    RTEXT           "‘„«—Â «‘ —«ò:",IDC_STATIC,126,8,51,9,0,WS_EX_RIGHT | 
+                    WS_EX_RTLREADING
+    EDITTEXT        IDC_EID,7,6,118,12,ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER,
+                    WS_EX_RIGHT | WS_EX_RTLREADING
+    CONTROL         "ﬁ»·Ì —« ÅÌœ« ò‰",IDC_PREV,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,63,22,62,10,WS_EX_RIGHT
+    DEFPUSHBUTTON   "»Ì«»",IDOK,99,36,50,14
+    PUSHBUTTON      "«‰’—«›",IDCANCEL,31,36,50,14
+END
+
+IDD_FINDAD DIALOGEX 0, 0, 186, 58
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_RIGHT | WS_EX_RTLREADING
+CAPTION "Ã” ÃÊÌ òœ ¬œ—”"
+FONT 8, "Tahoma", 0, 0, 0x1
+BEGIN
+    RTEXT           "òœ ¬œ—”:",IDC_STATIC,126,8,51,9,0,WS_EX_RIGHT | 
+                    WS_EX_RTLREADING
+    EDITTEXT        IDC_EAC,7,6,118,12,ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER,
+                    WS_EX_RIGHT | WS_EX_RTLREADING
+    CONTROL         "ﬁ»·Ì —« ÅÌœ« ò‰",IDC_PREV,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,63,22,62,10,WS_EX_RIGHT
+    DEFPUSHBUTTON   "»Ì«»",IDOK,99,36,50,14
+    PUSHBUTTON      "«‰’—«›",IDCANCEL,31,36,50,14
+END
+
+IDD_MSG DIALOGEX 0, 0, 219, 41
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_RIGHT | WS_EX_RTLREADING
+CAPTION "»—‰«„Â ç«Å »—ç”»"
+FONT 8, "Tahoma", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   " √ÌÌœ",IDOK,125,20,50,14
+    RTEXT           "ÅÌ€«„",IDC_MESSAGE,7,7,205,11,NOT WS_GROUP,WS_EX_RIGHT | 
+                    WS_EX_RTLREADING
+    PUSHBUTTON      "«‰’—«›",IDCANCEL,47,20,50,14
+END
+
+IDD_PRINTDLG DIALOGEX 0, 0, 294, 220
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_RIGHT | WS_EX_RTLREADING
+CAPTION "ç«Å"
+FONT 8, "Tahoma", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "ç«Å ‘Êœ",IDOK,156,199,50,14
+    PUSHBUTTON      "«‰’—«›",IDCANCEL,86,199,50,14
+    GROUPBOX        " «“ ",IDC_STATIC,7,7,280,29,0,WS_EX_RIGHT | 
+                    WS_EX_RTLREADING
+    LTEXT           "‘„«—Â «‘ —«ò: ",IDC_STATIC,218,19,52,8,0,WS_EX_RIGHT | 
+                    WS_EX_RTLREADING
+    LTEXT           "òœ ¬œ—”:",IDC_STATIC,83,18,30,8,0,WS_EX_RIGHT | 
+                    WS_EX_RTLREADING
+    GROUPBOX        "  « ",IDC_STATIC,7,40,280,29,0,WS_EX_RIGHT | 
+                    WS_EX_RTLREADING
+    LTEXT           "‘„«—Â «‘ —«ò: ",IDC_STATIC,219,52,52,8,0,WS_EX_RIGHT | 
+                    WS_EX_RTLREADING
+    LTEXT           "òœ ¬œ—”:",IDC_STATIC,83,51,30,8,0,WS_EX_RIGHT | 
+                    WS_EX_RTLREADING
+    CTEXT           "0123456789012345",IDC_FROMID,145,16,72,15,
+                    SS_CENTERIMAGE | WS_BORDER,WS_EX_RTLREADING
+    CTEXT           "‘„«—Â «‘ —«ò",IDC_TOID,147,49,72,15,SS_CENTERIMAGE | 
+                    WS_BORDER,WS_EX_RTLREADING
+    CTEXT           "0123456789",IDC_FROMAC,30,16,49,15,SS_CENTERIMAGE | 
+                    WS_BORDER,WS_EX_RTLREADING
+    CTEXT           "0123456789",IDC_TOAC,30,49,48,15,SS_CENTERIMAGE | 
+                    WS_BORDER,WS_EX_RTLREADING
+    CONTROL         "„ ‰«Ê»« »⁄œ «“ ç«Å «Ì‰  ⁄œ«œ »—ç”» „Êﬁ « »«Ì” :",
+                    IDC_CHKPAUSE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,119,
+                    75,166,10,WS_EX_RIGHT | WS_EX_RTLREADING
+    EDITTEXT        IDC_EPAUSEN,7,73,33,14,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER | WS_DISABLED,WS_EX_RIGHT | WS_EX_RTLREADING
+    CONTROL         "Spin1",IDC_SPIN1,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNLEFT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_HOTTRACK,41,73,11,14
+    LTEXT           "ÅÊ—  ç«Åê—:",IDC_STATIC,70,168,36,8,0,WS_EX_RIGHT | 
+                    WS_EX_RTLREADING
+    COMBOBOX        IDC_CPORT,14,167,51,61,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        " ‰Ê⁄ »—ç”» ",IDC_STATIC,7,88,280,29,0,WS_EX_RIGHT | 
+                    WS_EX_RTLREADING
+    CONTROL         "Slider1",IDC_DARKNESS,"msctls_trackbar32",TBS_AUTOTICKS | 
+                    TBS_BOTH | WS_TABSTOP,20,130,198,25
+    GROUPBOX        "  ‰ŸÌ„«  ç«Å ",IDC_STATIC,7,122,280,71,0,WS_EX_RIGHT | 
+                    WS_EX_RTLREADING
+    LTEXT           "œ—ÃÂ  Ì—êÌ: ",IDC_STATIC,237,138,41,8,0,WS_EX_RIGHT | 
+                    WS_EX_RTLREADING
+    LTEXT           "0",IDC_STATIC,10,138,8,8,0,WS_EX_RIGHT | 
+                    WS_EX_RTLREADING
+    LTEXT           "30",IDC_STATIC,222,138,8,8,0,WS_EX_RIGHT | 
+                    WS_EX_RTLREADING
+    LTEXT           " ”—⁄  ç«Å: ",IDC_STATIC,236,167,44,8,0,WS_EX_RIGHT | 
+                    WS_EX_RTLREADING
+    COMBOBOX        IDC_CPRINTERSPEED,116,167,117,91,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP,WS_EX_RIGHT | WS_EX_RTLREADING
+    CONTROL         "»«—òœœ«—",IDC_LABELTYPE,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,238,100,38,10,WS_EX_RIGHT | WS_EX_RTLREADING
+    CONTROL         "»œÊ‰ »«—òœ",IDC_LABELTYPE2,"Button",BS_AUTORADIOBUTTON,
+                    184,100,46,10,WS_EX_RIGHT | WS_EX_RTLREADING
+    CONTROL         "»«—òœœ«— Ê »œÊ‰ »«—òœ",IDC_LABELTYPE3,"Button",
+                    BS_AUTORADIOBUTTON,101,100,75,10,WS_EX_RIGHT | 
+                    WS_EX_RTLREADING
+    CONTROL         "»— «”«” œ—ŒÊ«” ",IDC_LABELTYPE4,"Button",
+                    BS_AUTORADIOBUTTON,18,100,75,10,WS_EX_RIGHT | 
+                    WS_EX_RTLREADING
+END
+
+IDD_PATHS DIALOGEX 0, 0, 295, 50
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_RIGHT | WS_EX_RTLREADING
+CAPTION "„”Ì—Â«"
+FONT 8, "Tahoma", 0, 0, 0x1
+BEGIN
+    LTEXT           "„”Ì— Å«Ìê«Â œ«œÂ Â«:",IDC_STATIC,224,8,64,10,0,
+                    WS_EX_RIGHT | WS_EX_RTLREADING
+    EDITTEXT        IDC_EMDB,7,7,217,12,ES_AUTOHSCROLL | ES_READONLY | NOT 
+                    WS_BORDER | NOT WS_TABSTOP,WS_EX_STATICEDGE
+    PUSHBUTTON      " €ÌÌ—",IDC_CHANGE,207,28,50,14
+    DEFPUSHBUTTON   " √ÌÌœ",IDOK,122,28,50,14
+    PUSHBUTTON      "«‰’—«›",IDCANCEL,37,28,50,14
+END
+
+IDD_TITLES DIALOGEX 0, 0, 215, 65
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_RIGHT | WS_EX_RTLREADING
+CAPTION "⁄‰Ê«‰Â«"
+FONT 8, "Tahoma", 0, 0, 0x1
+BEGIN
+    LTEXT           "‰«„ ‘—ò :",IDC_STATIC,173,9,35,8,0,WS_EX_RIGHT | 
+                    WS_EX_RTLREADING
+    EDITTEXT        IDC_ECOMPANY,7,7,164,14,ES_AUTOHSCROLL,WS_EX_RIGHT | 
+                    WS_EX_RTLREADING
+    LTEXT           "‰«„ ‰«ÕÌÂ:",IDC_STATIC,178,27,30,8,0,WS_EX_RIGHT | 
+                    WS_EX_RTLREADING
+    EDITTEXT        IDC_EREGION,7,25,164,14,ES_AUTOHSCROLL,WS_EX_RIGHT | 
+                    WS_EX_RTLREADING
+    DEFPUSHBUTTON   " √ÌÌœ",IDOK,115,44,50,14
+    PUSHBUTTON      "«‰’—«›",IDCANCEL,50,44,50,14
+END
+
+IDD_PRINTREPDLG DIALOGEX 0, 0, 247, 27
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_RIGHT | WS_EX_RTLREADING
+CAPTION "ç«Å ›Â—” "
+MENU IDR_PRNRPMENU
+FONT 8, "Tahoma", 0, 0, 0x1
+BEGIN
+    CTEXT           "‰«„ ‰«ÕÌÂ:",IDC_STATIC,199,7,41,13,SS_CENTERIMAGE | 
+                    SS_SUNKEN,WS_EX_DLGMODALFRAME | WS_EX_RIGHT | 
+                    WS_EX_RTLREADING
+    CTEXT           "‰«„ ‰«ÕÌÂ",IDC_STITLE,7,7,188,13,SS_CENTERIMAGE | 
+                    SS_SUNKEN,WS_EX_DLGMODALFRAME | WS_EX_TRANSPARENT | 
+                    WS_EX_RIGHT | WS_EX_RTLREADING
+END
+
+IDD_INSERTCUSTOMER DIALOGEX 0, 0, 307, 129
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_RIGHT | WS_EX_RTLREADING
+CAPTION "œ—Ã œ” Ì „‘Œ’«  „‘ —ò"
+FONT 8, "Tahoma", 0, 0, 0x1
+BEGIN
+    LTEXT           "‘„«—Â «‘ —«ò*:",IDC_STATIC,246,9,54,8,0,WS_EX_RIGHT | 
+                    WS_EX_RTLREADING
+    EDITTEXT        IDC_FIELD1,136,7,106,14,ES_AUTOHSCROLL | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_RTLREADING | WS_EX_STATICEDGE
+    LTEXT           "òœ ¬œ—”:",IDC_STATIC,270,29,30,8,0,WS_EX_RIGHT | 
+                    WS_EX_RTLREADING
+    EDITTEXT        IDC_FIELD2,136,27,106,14,ES_AUTOHSCROLL | ES_NUMBER | 
+                    NOT WS_BORDER,WS_EX_RTLREADING | WS_EX_STATICEDGE
+    LTEXT           "”—Ì«· ò‰ Ê—:",IDC_STATIC,260,49,40,8,0,WS_EX_RIGHT | 
+                    WS_EX_RTLREADING
+    EDITTEXT        IDC_FIELD3,135,47,106,14,ES_AUTOHSCROLL | ES_NUMBER | 
+                    NOT WS_BORDER,WS_EX_RTLREADING | WS_EX_STATICEDGE
+    LTEXT           "‰«„ „‘ —ò:",IDC_STATIC,261,69,39,8,0,WS_EX_RIGHT | 
+                    WS_EX_RTLREADING
+    EDITTEXT        IDC_FIELD4,135,67,106,14,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_RIGHT | WS_EX_RTLREADING | WS_EX_STATICEDGE
+    LTEXT           "‰‘«‰Ì:",IDC_STATIC,275,90,25,8,0,WS_EX_RIGHT | 
+                    WS_EX_RTLREADING
+    EDITTEXT        IDC_FIELD5,7,87,234,14,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_RIGHT | WS_EX_RTLREADING | WS_EX_STATICEDGE
+    DEFPUSHBUTTON   " √ÌÌœ",IDOK,151,108,50,14
+    PUSHBUTTON      "«‰’—«›",IDCANCEL,84,108,50,14
+END
+
+IDD_GENIDS DIALOGEX 0, 0, 202, 81
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_RIGHT | WS_EX_RTLREADING
+CAPTION " Ê·Ìœ ‘„«—Â «‘ —«ò »Â ’Ê—   — Ì»Ì"
+FONT 8, "Tahoma", 0, 0, 0x1
+BEGIN
+    LTEXT           "«“:",IDC_STATIC,159,22,8,8,0,WS_EX_RIGHT | 
+                    WS_EX_RTLREADING
+    EDITTEXT        IDC_FROM,44,20,111,15,ES_AUTOHSCROLL | ES_NUMBER,
+                    WS_EX_RTLREADING
+    LTEXT           " «:",IDC_STATIC,159,42,8,8,0,WS_EX_RIGHT | 
+                    WS_EX_RTLREADING
+    EDITTEXT        IDC_TO,44,39,111,15,ES_AUTOHSCROLL | ES_NUMBER,
+                    WS_EX_RTLREADING
+    DEFPUSHBUTTON   " √ÌÌœ",IDOK,106,60,50,14
+    PUSHBUTTON      "«‰’—«›",IDCANCEL,44,60,50,14
+    LTEXT           "”Ì“œÂ —ﬁ„ «Ê· ‘„«—Â «‘ —«òÂ« —« Ê«—œ ò‰Ìœ:",IDC_STATIC,
+                    7,7,188,10,0,WS_EX_RIGHT | WS_EX_RTLREADING
+END
+
+IDD_PRINTNOZPLDLG DIALOGEX 0, 0, 294, 185
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_RIGHT | WS_EX_RTLREADING
+CAPTION "ç«Å"
+FONT 8, "Tahoma"
+BEGIN
+    DEFPUSHBUTTON   "ç«Å ‘Êœ",IDOK,156,163,50,14
+    PUSHBUTTON      "«‰’—«›",IDCANCEL,86,163,50,14
+    GROUPBOX        " «“ ",-1,7,7,280,29,0,WS_EX_RIGHT | WS_EX_RTLREADING
+    LTEXT           "‘„«—Â «‘ —«ò: ",-1,218,19,52,8,0,WS_EX_RIGHT | 
+                    WS_EX_RTLREADING
+    LTEXT           "òœ ¬œ—”:",-1,83,18,30,8,0,WS_EX_RIGHT | 
+                    WS_EX_RTLREADING
+    GROUPBOX        "  « ",-1,7,40,280,29,0,WS_EX_RIGHT | WS_EX_RTLREADING
+    LTEXT           "‘„«—Â «‘ —«ò: ",-1,219,52,52,8,0,WS_EX_RIGHT | 
+                    WS_EX_RTLREADING
+    LTEXT           "òœ ¬œ—”:",-1,83,51,30,8,0,WS_EX_RIGHT | 
+                    WS_EX_RTLREADING
+    CTEXT           "0123456789012345",IDC_FROMID,145,16,72,15,
+                    SS_CENTERIMAGE | WS_BORDER,WS_EX_RTLREADING
+    CTEXT           "‘„«—Â «‘ —«ò",IDC_TOID,147,49,72,15,SS_CENTERIMAGE | 
+                    WS_BORDER,WS_EX_RTLREADING
+    CTEXT           "0123456789",IDC_FROMAC,30,16,49,15,SS_CENTERIMAGE | 
+                    WS_BORDER,WS_EX_RTLREADING
+    CTEXT           "0123456789",IDC_TOAC,30,49,48,15,SS_CENTERIMAGE | 
+                    WS_BORDER,WS_EX_RTLREADING
+    CONTROL         "„ ‰«Ê»« »⁄œ «“ ç«Å «Ì‰  ⁄œ«œ »—ç”» „Êﬁ « »«Ì” :",
+                    IDC_CHKPAUSE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,119,
+                    75,166,10,WS_EX_RIGHT | WS_EX_RTLREADING
+    EDITTEXT        IDC_EPAUSEN,7,73,33,14,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER | WS_DISABLED,WS_EX_RIGHT | WS_EX_RTLREADING
+    CONTROL         "Spin1",IDC_SPIN1,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNLEFT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_HOTTRACK,41,73,11,14
+    GROUPBOX        " ‰Ê⁄ »—ç”» ",-1,7,88,280,29,0,WS_EX_RIGHT | 
+                    WS_EX_RTLREADING
+    GROUPBOX        "  ‰ŸÌ„«  ç«Å ",-1,7,122,280,35,0,WS_EX_RIGHT | 
+                    WS_EX_RTLREADING
+    LTEXT           " ”—⁄  ç«Å: ",-1,236,135,44,8,0,WS_EX_RIGHT | 
+                    WS_EX_RTLREADING
+    COMBOBOX        IDC_CPRINTERSPEED,116,135,117,91,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP,WS_EX_RIGHT | WS_EX_RTLREADING
+    CONTROL         "»«—òœœ«—",IDC_LABELTYPE,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,238,100,38,10,WS_EX_RIGHT | WS_EX_RTLREADING
+    CONTROL         "»œÊ‰ »«—òœ",IDC_LABELTYPE2,"Button",BS_AUTORADIOBUTTON,
+                    184,100,46,10,WS_EX_RIGHT | WS_EX_RTLREADING
+    CONTROL         "»«—òœœ«— Ê »œÊ‰ »«—òœ",IDC_LABELTYPE3,"Button",
+                    BS_AUTORADIOBUTTON | WS_DISABLED,101,100,75,10,
+                    WS_EX_RIGHT | WS_EX_RTLREADING
+    CONTROL         "»— «”«” œ—ŒÊ«” ",IDC_LABELTYPE4,"Button",
+                    BS_AUTORADIOBUTTON | WS_DISABLED,18,100,75,10,
+                    WS_EX_RIGHT | WS_EX_RTLREADING
+END
+
+IDD_PRINTYPE DIALOGEX 0, 0, 193, 57
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_RIGHT | WS_EX_RTLREADING
+CAPTION "‰Ê⁄ ç«Åê— »—ç”»"
+FONT 8, "Tahoma"
+BEGIN
+    DEFPUSHBUTTON   " √ÌÌœ",IDOK,114,35,50,14
+    PUSHBUTTON      "«‰’—«›",IDCANCEL,29,35,50,14
+    CONTROL         "ç«Åê— ”«“ê«— »« ZPL („«‰‰œ Zebra Z4MPlus Ê ...)",
+                    IDC_RPRINTYPE,"Button",BS_AUTORADIOBUTTON | WS_GROUP,27,
+                    7,159,10,WS_EX_RIGHT | WS_EX_RTLREADING
+    CONTROL         "ç«Åê— ⁄«œÌ",IDC_RPRINTYPE2,"Button",BS_AUTORADIOBUTTON,
+                    135,20,51,10,WS_EX_RIGHT | WS_EX_RTLREADING
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_FINDID, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 50
+    END
+
+    IDD_FINDAD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 51
+    END
+
+    IDD_MSG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 212
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 34
+    END
+
+    IDD_PRINTDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 287
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 213
+    END
+
+    IDD_PATHS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 288
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 42
+    END
+
+    IDD_TITLES, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 208
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 58
+    END
+
+    IDD_PRINTREPDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 240
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 20
+    END
+
+    IDD_INSERTCUSTOMER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 300
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 122
+    END
+
+    IDD_GENIDS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 195
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 74
+    END
+
+    IDD_PRINTNOZPLDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 287
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 178
+    END
+
+    IDD_PRINTYPE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 186
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 49
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_PRINTDLG DLGINIT
+BEGIN
+    IDC_CPORT, 0x403, 5, 0
+0x4f43, 0x314d, "\000" 
+    IDC_CPORT, 0x403, 5, 0
+0x4f43, 0x324d, "\000" 
+    IDC_CPORT, 0x403, 5, 0
+0x504c, 0x3154, "\000" 
+    IDC_CPRINTERSPEED, 0x403, 23, 0
+0x2e35, 0x3830, 0xd320, 0xe4c7, 0xedca, 0xcae3, 0x20d1, 0xd1c8, 0xcb20, 
+0xe4c7, 0xe5ed, "\000" 
+    IDC_CPRINTERSPEED, 0x403, 23, 0
+0x2e37, 0x3236, 0xd320, 0xe4c7, 0xedca, 0xcae3, 0x20d1, 0xd1c8, 0xcb20, 
+0xe4c7, 0xe5ed, "\000" 
+    IDC_CPRINTERSPEED, 0x403, 24, 0
+0x3031, 0x312e, 0x2036, 0xc7d3, 0xcae4, 0xe3ed, 0xd1ca, 0xc820, 0x20d1, 
+0xc7cb, 0xede4, 0x00e5, 
+    IDC_CPRINTERSPEED, 0x403, 24, 0
+0x3231, 0x372e, 0x2030, 0xc7d3, 0xcae4, 0xe3ed, 0xd1ca, 0xc820, 0x20d1, 
+0xc7cb, 0xede4, 0x00e5, 
+    IDC_CPRINTERSPEED, 0x403, 24, 0
+0x3531, 0x322e, 0x2034, 0xc7d3, 0xcae4, 0xe3ed, 0xd1ca, 0xc820, 0x20d1, 
+0xc7cb, 0xede4, 0x00e5, 
+    IDC_CPRINTERSPEED, 0x403, 24, 0
+0x3731, 0x372e, 0x2038, 0xc7d3, 0xcae4, 0xe3ed, 0xd1ca, 0xc820, 0x20d1, 
+0xc7cb, 0xede4, 0x00e5, 
+    IDC_CPRINTERSPEED, 0x403, 24, 0
+0x3032, 0x332e, 0x2032, 0xc7d3, 0xcae4, 0xe3ed, 0xd1ca, 0xc820, 0x20d1, 
+0xc7cb, 0xede4, 0x00e5, 
+    IDC_CPRINTERSPEED, 0x403, 24, 0
+0x3232, 0x382e, 0x2036, 0xc7d3, 0xcae4, 0xe3ed, 0xd1ca, 0xc820, 0x20d1, 
+0xc7cb, 0xede4, 0x00e5, 
+    IDC_CPRINTERSPEED, 0x403, 24, 0
+0x3532, 0x342e, 0x2030, 0xc7d3, 0xcae4, 0xe3ed, 0xd1ca, 0xc820, 0x20d1, 
+0xc7cb, 0xede4, 0x00e5, 
+    0
+END
+
+IDD_PRINTNOZPLDLG DLGINIT
+BEGIN
+    IDC_CPRINTERSPEED, 0x403, 23, 0
+0x2e35, 0x3830, 0xd320, 0xe4c7, 0xedca, 0xcae3, 0x20d1, 0xd1c8, 0xcb20, 
+0xe4c7, 0xe5ed, "\000" 
+    IDC_CPRINTERSPEED, 0x403, 23, 0
+0x2e37, 0x3236, 0xd320, 0xe4c7, 0xedca, 0xcae3, 0x20d1, 0xd1c8, 0xcb20, 
+0xe4c7, 0xe5ed, "\000" 
+    IDC_CPRINTERSPEED, 0x403, 24, 0
+0x3031, 0x312e, 0x2036, 0xc7d3, 0xcae4, 0xe3ed, 0xd1ca, 0xc820, 0x20d1, 
+0xc7cb, 0xede4, 0x00e5, 
+    IDC_CPRINTERSPEED, 0x403, 24, 0
+0x3231, 0x372e, 0x2030, 0xc7d3, 0xcae4, 0xe3ed, 0xd1ca, 0xc820, 0x20d1, 
+0xc7cb, 0xede4, 0x00e5, 
+    IDC_CPRINTERSPEED, 0x403, 24, 0
+0x3531, 0x322e, 0x2034, 0xc7d3, 0xcae4, 0xe3ed, 0xd1ca, 0xc820, 0x20d1, 
+0xc7cb, 0xede4, 0x00e5, 
+    IDC_CPRINTERSPEED, 0x403, 24, 0
+0x3731, 0x372e, 0x2038, 0xc7d3, 0xcae4, 0xe3ed, 0xd1ca, 0xc820, 0x20d1, 
+0xc7cb, 0xede4, 0x00e5, 
+    IDC_CPRINTERSPEED, 0x403, 24, 0
+0x3032, 0x332e, 0x2032, 0xc7d3, 0xcae4, 0xe3ed, 0xd1ca, 0xc820, 0x20d1, 
+0xc7cb, 0xede4, 0x00e5, 
+    IDC_CPRINTERSPEED, 0x403, 24, 0
+0x3232, 0x382e, 0x2036, 0xc7d3, 0xcae4, 0xe3ed, 0xd1ca, 0xc820, 0x20d1, 
+0xc7cb, 0xede4, 0x00e5, 
+    IDC_CPRINTERSPEED, 0x403, 24, 0
+0x3532, 0x342e, 0x2030, 0xc7d3, 0xcae4, 0xe3ed, 0xd1ca, 0xc820, 0x20d1, 
+0xc7cb, 0xede4, 0x00e5, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  16, 16
+BEGIN
+    BUTTON      ID_APP_ABOUT
+    SEPARATOR
+    BUTTON      ID_PRINT_CURRENTITEM
+    BUTTON      ID_SENDTOZ4M
+    BUTTON      ID_FILE_TITLES
+    BUTTON      ID_SEL_END
+    BUTTON      ID_SEL_START
+    SEPARATOR
+    BUTTON      ID_FILE_PRINTLIST
+    BUTTON      ID_FILE_DELCONTENTS
+    BUTTON      ID_FILE_SORTONAD
+    BUTTON      ID_FILE_SORTONID
+    BUTTON      ID_FILE_GENIDS
+    BUTTON      ID_FILE_INSERTDLG
+    BUTTON      ID_FILE_LOADLABELFILE
+    BUTTON      ID_FILE_OPEN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENUEX PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "«ÿ·«⁄«  „‘ —òÌ‰",                65535,
+    MFT_STRING | MFT_RIGHTORDER | MFT_RIGHTJUSTIFY,MFS_ENABLED
+    BEGIN
+        MENUITEM "»«—ê–«—Ì ·Ì”  ”›Ìœ\tF2",      57601,MFT_STRING,MFS_ENABLED
+        MENUITEM "»«—ê–«—Ì ›«Ì· ”›«—‘ »—ç”»",   32790,MFT_STRING,MFS_ENABLED
+        MENUITEM "œ—Ã œ” Ì „‘Œ’«  „‘ —ò",       32789,MFT_STRING,MFS_ENABLED
+        MENUITEM " Ê·Ìœ ‘„«—Â «‘ —«ò »Â ’Ê—  ”—Ì", 32792,MFT_STRING,
+        MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "„— » ”«“Ì »— «”«” ‘„«—Â «‘ —«ò", 32781,MFT_STRING,
+        MFS_ENABLED
+        MENUITEM "„— » ”«“Ì »— «”«” òœ ¬œ—”",   32785,MFT_STRING,MFS_ENABLED
+        MENUITEM "Õ–› ›Â—” ",                   32788,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "Ã” ÃÊÌ ‘„«—Â «‘ —«ò\tF3",     57608,MFT_STRING,MFS_ENABLED
+        MENUITEM "Ã” ÃÊÌ òœ ¬œ—”\tF4",          32776,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "‰«„ ‘—ò  / ‰«ÕÌÂ",            32783,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "ç«Å ›Â—” ",                   32787,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "Œ—ÊÃ",                        57665,MFT_STRING,MFS_ENABLED
+    END
+    POPUP "ç«Å",                            65535,MFT_STRING,MFS_ENABLED
+    BEGIN
+        MENUITEM " ⁄ÌÌ‰ »Â ⁄‰Ê«‰ ¬€«“ ›Â—”  ç«Å\tF6", 32777,MFT_STRING,
+        MFS_ENABLED
+        MENUITEM " ⁄ÌÌ‰ »Â ⁄‰Ê«‰ Å«Ì«‰ ›Â—”  ç«Å\tF7", 32778,MFT_STRING,
+        MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "ç«Å\tF8",                     61447,MFT_STRING,MFS_ENABLED
+        MENUITEM "ç«Å ⁄‰Ê«‰ «‰ Œ«» ‘œÂ",        32784,MFT_STRING,MFS_ENABLED
+    END
+    POPUP " ‰ŸÌ„« ",                        65535,MFT_STRING,MFS_ENABLED
+    BEGIN
+        MENUITEM "‰Ê⁄ ç«Åê— »—ç”»",             ID_SETTINGS_PRINTERTYPE,
+        MFT_STRING,MFS_ENABLED
+        MENUITEM "„”Ì—Â«",                      32780,MFT_STRING,MFS_ENABLED
+        POPUP "‰„«",                            65535,MFT_STRING,MFS_ENABLED
+        BEGIN
+            MENUITEM "„Ì·Â «»“«—",                  59392,MFT_STRING,
+            MFS_ENABLED
+            MENUITEM "‰Ê«— Ê÷⁄Ì ",                  59393,MFT_STRING,
+            MFS_ENABLED
+        END
+    END
+    POPUP "—«Â‰„«",                         65535,MFT_STRING,MFS_ENABLED
+    BEGIN
+        MENUITEM "œ—»«—Â »—‰«„Â",               57664,MFT_STRING,MFS_ENABLED
+    END
+END
+
+IDR_GRIDMENU MENU DISCARDABLE 
+BEGIN
+    POPUP ""
+    BEGIN
+        MENUITEM "ç«Å",                         ID_PRINTTT
+    END
+END
+
+IDR_PRNRPMENU MENUEX DISCARDABLE 
+BEGIN
+    MENUITEM "ç«Å",                         57607,
+    MFT_STRING | MFT_RIGHTORDER | MFT_RIGHTJUSTIFY,MFS_ENABLED
+    MENUITEM "ÅÌ‘ ‰„«Ì‘ ç«Å",               57609,MFT_STRING,MFS_ENABLED
+    MENUITEM "Œ—ÊÃ",                        32796,MFT_STRING,MFS_ENABLED
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "ç«Å »—ç”» »«—òœÌ ò‰ Ê—\n»œÊ‰ ·Ì” \n·Ì”  ”›Ìœ\n\n\nGCLPrint.Document\nGCLPri Document"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "GCLPrint"
+    AFX_IDS_IDLEMESSAGE     "¬„«œÂ"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "»«—ê–«—Ì ›«Ì· ·Ì”  ”›Ìœ\n»«—ê–«—Ì ·Ì”  ”›Ìœ"
+    ID_FILE_CLOSE           "i"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the active document\nPrint"
+    ID_FILE_FINDID          "Ì«› ‰ „‘Œ’«  „‘ —ò »« Ê—Êœ ‘„«—Â «‘ —«ò\nÃ” ÃÊ"
+    ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "„‘«ÂœÂ „‘Œ’«  »—‰«„Â\nœ—»«—Â »—‰«„Â"
+    ID_APP_EXIT             "«“ »—‰«„Â Œ«—Ã ‘ÊÌœ\nŒ—ÊÃ"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "»«“ŒÊ«‰Ì «Ì‰ ·Ì”  ”›Ìœ"
+    ID_FILE_MRU_FILE2       "»«“ŒÊ«‰Ì «Ì‰ ·Ì”  ”›Ìœ"
+    ID_FILE_MRU_FILE3       "»«“ŒÊ«‰Ì «Ì‰ ·Ì”  ”›Ìœ"
+    ID_FILE_MRU_FILE4       "»«“ŒÊ«‰Ì «Ì‰ ·Ì”  ”›Ìœ"
+    ID_FILE_MRU_FILE5       "»«“ŒÊ«‰Ì «Ì‰ ·Ì”  ”›Ìœ"
+    ID_FILE_MRU_FILE6       "»«“ŒÊ«‰Ì «Ì‰ ·Ì”  ”›Ìœ"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "‰„«Ì‘ Ì« ⁄œ„ ‰„«Ì‘ ‰Ê«— «»“«—\n €ÌÌ— Ê÷⁄Ì  ‰„«Ì‘ ‰Ê«— «»“«—"
+    ID_VIEW_STATUS_BAR      "‰„«Ì‘ Ì« ⁄œ„ ‰„«Ì‘ ‰Ê«— Ê÷⁄Ì \n €ÌÌ— Ê÷⁄Ì  ‰„«Ì‘ ‰Ê«— Ê÷⁄Ì "
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Close print preview mode\nCancel Preview"
+    ID_SENDTOZ4M            "ç«Å\nç«Å"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_PROGRESS_PANE 
+                            "                                                                             "
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_PRINT_THIS           "¬Ì „Â«Ì «‰ Œ«» ‘œÂ —« Å«ê ò‰Ìœ"
+    ID_PRINT_THIS2          "«Ì‰ »—ç”» —« ç«Å ò‰"
+    ID_MENUITEM32775        "Ì«› ‰ „‘Œ’«  „‘ —ò »« Ê—Êœ ‘„«—Â «‘ —«ò\nÃ” ÃÊ"
+    ID_FILE_FINDAD          "Ì«› ‰ „‘Œ’«  „‘ —ò »« Ê—Êœ òœ ¬œ—”\nÃ” ÃÊ"
+    ID_SEL_START            " ⁄ÌÌ‰ »Â ⁄‰Ê«‰ ¬€«“ ›Â—”  ç«Å\n¬€«“ ›Â—”  ç«Å"
+    ID_SEL_END              " ⁄ÌÌ‰ »Â ⁄‰Ê«‰ Å«Ì«‰ ›Â—”  ç«Å\nÅ«Ì«‰ ›Â—”  ç«Å"
+    ID_SETTINGS_PATHS       " €ÌÌ— „”Ì—Â«Ì ÅÌ‘ ›—÷\n„”Ì—Â«"
+    ID_FILE_SORTONID        "„— » ”«“Ì »— «”«” ‘„«—Â «‘ —«ò\n„— » ”«“Ì »— «”«” ‘„«—Â «‘ —«ò"
+    ID_PRINT_CURRENT        "ç«Å ¬Ì „ «‰ Œ«» ‘œÂ\nç«Å ¬Ì „ «‰ Œ«» ‘œÂ"
+    ID_FILE_TITLES          " €ÌÌ— ‰«„ ‘—ò  Ê ‰«„ ‰«ÕÌÂ\n €ÌÌ— ‰«„ ‘—ò  Ê ‰«„ ‰«ÕÌÂ"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_RECORD_FIRST         "»«“ê‘  »Â ¬€«“ ›Â—” "
+    ID_RECORD_LAST          "¬Œ— ›Â—” "
+    ID_RECORD_NEXT          "»⁄œÌ"
+    ID_RECORD_PREV          "ﬁ»·Ì"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_PRINT_CURRENTITEM    "ç«Å ⁄‰Ê«‰ «‰ Œ«» ‘œÂ\nç«Å ⁄‰Ê«‰ «‰ Œ«» ‘œÂ"
+    ID_FILE_SORTONAD        "„— » ”«“Ì »— «”«” òœ ¬œ—”\n„— » ”«“Ì »— «”«” òœ ¬œ—”"
+    ID_FILE_PRINTLIST       "›Â—”  „‘ —òÌ‰ —« ç«Å ò‰Ìœ\n›Â—”  „‘ —òÌ‰ —« ç«Å ò‰Ìœ"
+    ID_FILE_DELCONTENTS     "Õ–› ›Â—” \nÕ–› ›Â—” "
+    ID_FILE_INSERTDLG       "œ—Ã œ” Ì „‘Œ’«  „‘ —ò\nœ—Ã œ” Ì „‘Œ’«  „‘ —ò"
+    ID_FILE_LOADLABELFILE   "»«—ê–«—Ì ›«Ì· ”›«—‘ »—ç”»\n»«—ê–«—Ì ›«Ì· ”›«—‘ »—ç”»"
+    ID_FILE_GENIDS          " Ê·Ìœ ‘„«—Â «‘ —«ò »Â ’Ê—  ”—Ì\n Ê·Ìœ ‘„«—Â «‘ —«ò »Â ’Ê—  ”—Ì"
+    ID_SETTINGS_PRINTERTYPE "«‰ Œ«» ‰Ê⁄ ç«Åê— »—ç”»\n«‰ Œ«» ‰Ê⁄ ç«Åê— »—ç”»"
+END
+
+#endif    // Neutral (Default) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Unknown language: 0x29, 0x1 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FAR)
+#ifdef _WIN32
+LANGUAGE 0x29, 0x1
+#pragma code_page(1256)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_CUSTOMER DIALOGEX 0, 0, 302, 110
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_RIGHT | WS_EX_RTLREADING
+CAPTION "„‘Œ’«  „‘ —ò"
+FONT 8, "Tahoma", 0, 0, 0x1
+BEGIN
+    LTEXT           "òœ ÕÊ“Â: ",IDC_STATIC,107,35,29,8,0,WS_EX_RIGHT | 
+                    WS_EX_RTLREADING
+    LTEXT           "›—ò«‰”:",IDC_STATIC,268,64,27,8,0,WS_EX_RIGHT | 
+                    WS_EX_RTLREADING
+    LTEXT           "‘„«—Â «‘ —«ò:",IDC_STATIC,245,5,50,8,0,WS_EX_RIGHT | 
+                    WS_EX_RTLREADING
+    LTEXT           "‰«„ „‘ —ò:",IDC_STATIC,117,5,39,8,0,WS_EX_RIGHT | 
+                    WS_EX_RTLREADING
+    LTEXT           "‰‘«‰Ì:",IDC_STATIC,270,20,25,8,0,WS_EX_RIGHT | 
+                    WS_EX_RTLREADING
+    LTEXT           "„ﬁœ«— ﬁ»·Ì:",IDC_STATIC,99,50,38,8,0,WS_EX_RIGHT | 
+                    WS_EX_RTLREADING
+    LTEXT           "‰Ê⁄ „’—›:",IDC_STATIC,102,65,36,8,0,WS_EX_RIGHT | 
+                    WS_EX_RTLREADING
+    LTEXT           " «—ÌŒ ﬁ»·Ì:",IDC_STATIC,259,49,36,8,0,WS_EX_RIGHT | 
+                    WS_EX_RTLREADING
+    LTEXT           "òœ ¬œ—”:",IDC_STATIC,265,35,30,8,0,WS_EX_RIGHT | 
+                    WS_EX_RTLREADING
+    LTEXT           " «—ÌŒ ›«Ì·:",IDC_STATIC,263,92,32,8,0,WS_EX_RIGHT | 
+                    WS_EX_RTLREADING
+    RTEXT           "",IDC_ID,160,3,85,14,NOT WS_GROUP,WS_EX_DLGMODALFRAME | 
+                    WS_EX_CLIENTEDGE | WS_EX_RIGHT | WS_EX_RTLREADING | 
+                    WS_EX_STATICEDGE
+    RTEXT           "",IDC_NAME,7,3,110,14,NOT WS_GROUP,WS_EX_DLGMODALFRAME | 
+                    WS_EX_CLIENTEDGE | WS_EX_RIGHT | WS_EX_RTLREADING | 
+                    WS_EX_STATICEDGE
+    RTEXT           "",IDC_ADDRESS,7,17,238,15,NOT WS_GROUP,
+                    WS_EX_DLGMODALFRAME | WS_EX_CLIENTEDGE | WS_EX_RIGHT | 
+                    WS_EX_RTLREADING | WS_EX_STATICEDGE
+    RTEXT           "",IDC_ADDRESSCODE,160,32,85,14,NOT WS_GROUP,
+                    WS_EX_DLGMODALFRAME | WS_EX_CLIENTEDGE | WS_EX_RIGHT | 
+                    WS_EX_RTLREADING | WS_EX_STATICEDGE
+    RTEXT           "",IDC_PDATE,160,47,85,14,NOT WS_GROUP,
+                    WS_EX_DLGMODALFRAME | WS_EX_CLIENTEDGE | WS_EX_RIGHT | 
+                    WS_EX_RTLREADING | WS_EX_STATICEDGE
+    RTEXT           "",IDC_PCON,7,48,85,15,NOT WS_GROUP,WS_EX_DLGMODALFRAME | 
+                    WS_EX_CLIENTEDGE | WS_EX_RIGHT | WS_EX_RTLREADING | 
+                    WS_EX_STATICEDGE
+    RTEXT           "",IDC_FREQUENCY,160,61,85,15,NOT WS_GROUP,
+                    WS_EX_DLGMODALFRAME | WS_EX_CLIENTEDGE | WS_EX_RIGHT | 
+                    WS_EX_RTLREADING | WS_EX_STATICEDGE
+    RTEXT           "",IDC_QTYPE,7,63,85,15,NOT WS_GROUP,WS_EX_DLGMODALFRAME | 
+                    WS_EX_CLIENTEDGE | WS_EX_RIGHT | WS_EX_RTLREADING | 
+                    WS_EX_STATICEDGE
+    RTEXT           "",IDC_DCODE,7,33,85,15,NOT WS_GROUP,WS_EX_DLGMODALFRAME | 
+                    WS_EX_CLIENTEDGE | WS_EX_RIGHT | WS_EX_RTLREADING | 
+                    WS_EX_STATICEDGE
+    RTEXT           "",IDC_DATE,160,92,85,15,NOT WS_GROUP,
+                    WS_EX_DLGMODALFRAME | WS_EX_CLIENTEDGE | WS_EX_RIGHT | 
+                    WS_EX_RTLREADING | WS_EX_STATICEDGE
+    DEFPUSHBUTTON   " √ÌÌœ",IDOK,8,95,84,13,0,WS_EX_STATICEDGE
+    LTEXT           "”—Ì«· ò‰ Ê—:",IDC_STATIC,255,79,40,8,0,WS_EX_RIGHT | 
+                    WS_EX_RTLREADING
+    LTEXT           "Ÿ—›Ì  ò‰ Ê—:",IDC_STATIC,102,80,41,8,0,WS_EX_RIGHT | 
+                    WS_EX_RTLREADING
+    RTEXT           "",IDC_SERIAL,160,76,85,15,NOT WS_GROUP,
+                    WS_EX_DLGMODALFRAME | WS_EX_CLIENTEDGE | WS_EX_RIGHT | 
+                    WS_EX_RTLREADING | WS_EX_STATICEDGE
+    RTEXT           "",IDC_QUANT,7,78,85,15,NOT WS_GROUP,WS_EX_DLGMODALFRAME | 
+                    WS_EX_CLIENTEDGE | WS_EX_RIGHT | WS_EX_RTLREADING | 
+                    WS_EX_STATICEDGE
+END
+
+IDD_PRINTPROGRESSDLG DIALOGEX 0, 0, 359, 86
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP
+FONT 8, "Tahoma", 0, 0, 0x1
+BEGIN
+    CONTROL         "Progress1",IDC_PRINTPROGRESS,"msctls_progress32",
+                    WS_BORDER,7,25,345,19,WS_EX_RIGHT
+    CTEXT           "ç«Å »—ç”» # «“ #",IDC_SNOWPRINTING,7,12,345,8,0,
+                    WS_EX_RTLREADING
+    CONTROL         "Slider1",IDC_SPEEDSLIDER,"msctls_trackbar32",
+                    TBS_AUTOTICKS | WS_TABSTOP,30,53,126,22
+    LTEXT           "”—⁄  ç«Å:",IDC_STATIC,156,56,40,8,0,WS_EX_RIGHT | 
+                    WS_EX_RTLREADING
+    DEFPUSHBUTTON   "„Êﬁ « »«Ì” ",IDC_PAUSE,281,56,71,14
+    PUSHBUTTON      "«‰’—«› «“ ç«Å",IDCANCEL,203,56,71,14
+    PUSHBUTTON      "<<",IDC_BACK,8,54,22,14,WS_DISABLED
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_CUSTOMER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 295
+        BOTTOMMARGIN, 108
+    END
+
+    IDD_PRINTPROGRESSDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 352
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 79
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_ARM                 BITMAP  DISCARDABLE     "res\\arm.bmp"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\GCLPrint.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""afxprint.rc""       // printing/print preview resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 24
+//
+
+1                       24      DISCARDABLE     "res\\default1.bin"
+#endif    // Unknown language: 0x29, 0x1 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\GCLPrint.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "afxprint.rc"       // printing/print preview resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
