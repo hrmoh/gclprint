@@ -5,7 +5,7 @@ This is the source code for a utility application I had developed around 2006 (a
 
 The source code was compiled against Visual C++ 6.0, and it uses ADO to connect to its Microsoft Access database.
 
-Further information can be found ![here](http://arakara.gozir.com/weblog/?p=60) in Persian.
+Further information can be found [here](http://arakara.gozir.com/weblog/?p=60) in Persian.
 
 The souce is published as a virtual memento for myself and is not maintained anymore.
 
